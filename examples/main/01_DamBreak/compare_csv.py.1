@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html class="html-devise-layout gl-light" lang="en">
+<head>
+<meta charset="utf-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<title>Sign in · GitLab</title>
+<script>
+//<![CDATA[
+window.gon={};
+//]]>
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="/assets/application-932d92c0978bbfd542842a74272d2ddf1f240d95d0f3946e31269ba515fb0612.css" />
+<link rel="stylesheet" href="/assets/page_bundles/login-c86aaeb732c7cd4528094f168b9ad4a0408b971bd952f45a9a4dd714d1c9ecb1.css" /><link rel="stylesheet" href="/assets/page_bundles/commit_description-1e2cba4dda3c7b30dd84924809020c569f1308dea51520fe1dd5d4ce31403195.css" /><link rel="stylesheet" href="/assets/page_bundles/work_items-cbc6a2e1633c4e847a617e35cc4833b85b80816db688d3d6dd3cd31d4251bc53.css" /><link rel="stylesheet" href="/assets/page_bundles/notes_shared-caf98f77b75b4b5399bdde69c069ee023fefdaa986d687c937e8010218785f51.css" />
+<link rel="stylesheet" href="/assets/application_utilities-0bfb919a8a7eb0e89544dfe328e69461ccb276a565685fdb6ae3b14f3db3f41b.css" />
+<link rel="stylesheet" href="/assets/tailwind-72fdee340154524f5c6f88c7648b200197a6b07fd089b87d0e4f6aca67f836d4.css" />
+
+
+<link rel="stylesheet" href="/assets/fonts-fae5d3f79948bd85f18b6513a025f863b19636e85b09a1492907eb4b1bb0557b.css" />
+<link rel="stylesheet" href="/assets/highlight/themes/white-5ffbb706faebead681b01c8b52e92c6c0d35ad5b1c11d39012c90bcaf7892ca8.css" />
+
+
+<link rel="preload" href="/assets/application_utilities-0bfb919a8a7eb0e89544dfe328e69461ccb276a565685fdb6ae3b14f3db3f41b.css" as="style" type="text/css">
+<link rel="preload" href="/assets/application-932d92c0978bbfd542842a74272d2ddf1f240d95d0f3946e31269ba515fb0612.css" as="style" type="text/css">
+<link rel="preload" href="/assets/highlight/themes/white-5ffbb706faebead681b01c8b52e92c6c0d35ad5b1c11d39012c90bcaf7892ca8.css" as="style" type="text/css">
+
+
+
+
+<script src="/assets/webpack/runtime.285fec0b.bundle.js" defer="defer"></script>
+<script src="/assets/webpack/main.296cd676.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/10.52a37906.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/12.b315250f.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/14.3c86fb70.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.groups.analytics.dashboards-pages.groups.harbor.repositories-pages.groups.iteration_ca-b07ae190.c914cf7a.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.groups.new-pages.import.gitlab_projects.new-pages.import.manifest.new-pages.projects.n-44c6c18e.596e5ba2.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.search.show-super_sidebar.1a3f98e3.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/super_sidebar.b7778ce4.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.groups.sso-pages.registrations.new-pages.sessions.new-pages.trial_registrations.new.bd3d1128.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/commons-pages.admin.sessions-pages.sessions-pages.sessions.new-pages.trial_registrations.new.6284a64d.chunk.js" defer="defer"></script>
+<script src="/assets/webpack/pages.sessions.new.d2e80879.chunk.js" defer="defer"></script>
+
+
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="4fR1fiNTNIkaTlU_SOOZoJ-w_wIp3M9jJ5jA-f9RBygTpkQcHn1ml6kG6FEKLZkrZYGHs8V-Oce_UXmZECcV5g" />
+<meta name="csp-nonce" />
+<meta name="action-cable-url" content="/-/cable" />
+<link href="/-/manifest.json" rel="manifest">
+<link rel="icon" type="image/png" href="/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png" id="favicon" data-original-href="/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/apple-touch-icon-b049d4bc0dd9626f31db825d61880737befc7835982586d015bded10b4435460.png" />
+<link href="/search/opensearch.xml" rel="search" title="Search GitLab" type="application/opensearchdescription+xml">
+
+
+
+
+<meta content="GitLab Enterprise Edition" name="description">
+<meta content="#ececef" name="theme-color">
+</head>
+
+<body class="gl-h-full login-page [] gl-browser-generic gl-platform-other" data-page="sessions:new" data-testid="login-page">
+
+<script>
+//<![CDATA[
+gl = window.gl || {};
+gl.client = {"isGeneric":true,"isOther":true};
+
+
+//]]>
+</script>
+
+
+
+
+<div class="gl-h-full gl-flex gl-flex-wrap">
+<div class="container gl-self-center">
+<div class="content">
+<div class="flash-container flash-container-page sticky" data-testid="flash-container">
+<div class="gl-alert flash-alert gl-alert-danger" data-testid="alert-danger" role="alert">
+<div class="gl-alert-icon-container">
+<svg class="s16 gl-alert-icon gl-alert-icon-no-title" data-testid="error-icon"><use href="/assets/icons-8791a66659d025e0a4c801978c79a1fbd82db1d27d85f044a35728ea7cf0ae80.svg#error"></use></svg>
+</div>
+<button class="gl-button btn btn-icon btn-sm btn-default btn-default-tertiary js-close gl-dismiss-btn " aria-label="Dismiss" type="button"><svg class="s16 gl-icon gl-button-icon " data-testid="close-icon"><use href="/assets/icons-8791a66659d025e0a4c801978c79a1fbd82db1d27d85f044a35728ea7cf0ae80.svg#close"></use></svg>
+
+</button>
+<div class="gl-alert-content" role="alert">
+<div class="gl-alert-body">
+You need to sign in or sign up before continuing.
+</div>
+</div>
+</div>
+<div id="js-global-alerts"></div>
+</div>
+
+<div class="gl-my-5">
+<div class="col-sm-12 gl-text-center">
+<img alt="GitLab Enterprise Edition" class="gl-invisible gl-h-10 js-portrait-logo-detection lazy" data-src="/assets/logo-911de323fa0def29aaf817fca33916653fc92f3ff31647ac41d2c39bbe243edb.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+<h1 class="mb-3 gl-text-size-h2">
+GitLab Enterprise Edition
+</h1>
+</div>
+<div class="gl-w-full gl-ml-auto gl-mr-auto bar sm:gl-w-1/2">
+
+<div class="js-non-oauth-login">
+<ul class="-gl-mx-5 gl-my-5 nav-justified nav gl-tabs-nav" id="js-signin-tabs" role="tablist"><li role="presentation" class="nav-item"><a data-toggle="tab" data-testid="ldap-tab" role="tab" class="nav-link gl-tab-nav-item active gl-tab-nav-item-active" href="#ldapmain">LDAP</a></li>
+
+<li role="presentation" class="nav-item"><a data-toggle="tab" data-testid="standard-tab" role="tab" class="nav-link gl-tab-nav-item" href="#login-pane">Standard</a></li>
+</ul><div class="tab-content">
+<div class="tab-pane active" id="ldapmain" role="tabpanel">
+<form class="gl-show-field-errors" aria-live="assertive" data-testid="new_ldap_user" action="/users/auth/ldapmain/callback" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="r6_UV677z_Zaoz0EHzpQT9-EuHBevFmi4QbpoGew1zdd_eU1k9Wd6OnrgGpd9FDEJbXAwbIerwZ5z1DAiMbF-Q" autocomplete="off" /><div class="form-group">
+<label for="ldapmain_username">Username</label>
+<input name="username" autocomplete="username" class="form-control gl-form-input" title="This field is required." autofocus="autofocus" data-testid="username-field" required="required" type="text" id="ldapmain_username" />
+</div>
+<div class="form-group">
+<label for="ldapmain_password">Password</label>
+<input class="form-control gl-form-input js-password" data-id="ldapmain_password" data-name="password" data-testid="password-field">
+</div>
+<div class="gl-mb-3">
+<div class="gl-form-checkbox custom-control custom-checkbox">
+<input name="remember_me" type="hidden" value="0" autocomplete="off" /><input name="remember_me" autocomplete="off" class="custom-control-input" type="checkbox" value="1" id="ldapmain_remember_me" />
+<label class="custom-control-label" for="ldapmain_remember_me"><span>Remember me</span></label>
+</div>
+
+</div>
+<button data-testid="sign-in-button" type="submit" class="gl-button btn btn-block btn-md btn-confirm "><span class="gl-button-text">
+Sign in
+
+</span>
+
+</button></form>
+
+
+</div>
+
+<div class="tab-pane" id="login-pane" role="tabpanel">
+<form class="gl-show-field-errors js-arkose-labs-form" aria-live="assertive" data-testid="sign-in-form" action="/users/sign_in" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="BQwzATsefhtp09YjRi8fzofeyNi440yQ_vRBAZtQ38b3XgJjBjAsBdqba00E4R9Ffe-waVRBujRmPfhhdCbNCA" autocomplete="off" /><div class="form-group">
+<label for="user_login">Username or primary email</label>
+<input class="form-control gl-form-input js-username-field" autocomplete="username" autofocus="autofocus" autocapitalize="off" autocorrect="off" required="required" title="This field is required." data-testid="username-field" type="text" name="user[login]" id="user_login" />
+</div>
+<div class="form-group">
+<label for="user_password">Password</label>
+<input class="form-control gl-form-input js-password" data-id="user_password" data-name="user[password]" data-testid="password-field" type="password" name="user[password]" id="user_password" />
+<div class="form-text gl-text-right">
+<a href="/users/password/new">Forgot your password?</a>
+</div>
+</div>
+<div class="form-group">
+</div>
+<div class="gl-mb-3">
+<div class="gl-form-checkbox custom-control custom-checkbox">
+<input name="user[remember_me]" type="hidden" value="0" autocomplete="off" /><input autocomplete="off" class="custom-control-input" type="checkbox" value="1" name="user[remember_me]" id="user_remember_me" />
+<label class="custom-control-label" for="user_remember_me"><span>Remember me</span></label>
+</div>
+
+</div>
+<button class="gl-button btn btn-block btn-md btn-confirm js-sign-in-button" data-testid="sign-in-button" type="submit"><span class="gl-button-text">
+Sign in
+
+</span>
+
+</button></form>
+</div>
+</div>
+
+</div>
+<div class="gl-mt-3 gl-text-center">
+Don&#39;t have an account yet?
+<a data-testid="register-link" data-track-action="click_register_from_sign_in_page" data-track-label="free_registration" href="/users/sign_up">Register now</a>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div class="footer-container gl-w-full gl-self-end">
+<hr class="gl-m-0">
+<div class="container gl-py-5 gl-flex gl-justify-between gl-items-start">
+<div class="gl-hidden md:gl-flex gl-gap-5 gl-flex-wrap">
+<a href="/explore">Explore</a>
+<a href="/help">Help</a>
+<a href="https://about.gitlab.com">About GitLab</a>
+<a target="_blank" class="text-nowrap" rel="noopener noreferrer" href="https://forum.gitlab.com">Community forum</a>
+</div>
+<div class="js-language-switcher" data-locales="[{&quot;value&quot;:&quot;en&quot;,&quot;percentage&quot;:100,&quot;text&quot;:&quot;English&quot;},{&quot;value&quot;:&quot;fr&quot;,&quot;percentage&quot;:95,&quot;text&quot;:&quot;français&quot;},{&quot;value&quot;:&quot;de&quot;,&quot;percentage&quot;:95,&quot;text&quot;:&quot;Deutsch&quot;},{&quot;value&quot;:&quot;zh_CN&quot;,&quot;percentage&quot;:94,&quot;text&quot;:&quot;简体中文&quot;},{&quot;value&quot;:&quot;ja&quot;,&quot;percentage&quot;:92,&quot;text&quot;:&quot;日本語&quot;},{&quot;value&quot;:&quot;pt_BR&quot;,&quot;percentage&quot;:90,&quot;text&quot;:&quot;português (Brasil)&quot;}]"></div>
+
+</div>
+</div>
+
+
+</div>
+</body>
+</html>
