@@ -1,4 +1,5 @@
-Compile: 
+
+
 source /usr/local/Modules/init/bash # bashの場合
 export MODULEPATH=/opt/nvidia/hpc_sdk/modulefiles:$MODULEPATH
 export NVHPC_VER=23.1
